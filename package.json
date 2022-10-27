@@ -1,0 +1,21 @@
+{
+  "name": "@quiteer/cli-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/TaiAiAc/quiteer#readme",
+  "bugs": {
+    "url": "https://github.com/TaiAiAc/quiteer/issues"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@quiteer/eslint-config": "workspace:*",
+    "@quiteer/ts-config": "workspace:*",
+    "eslint": "^8.26.0",
+    "typescript": "^4.8.4"
+  }
+}
