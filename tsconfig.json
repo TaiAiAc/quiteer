@@ -1,3 +1,7 @@
 {
-  "extends": "./node_modules/@quiteer/ts-config/tsconfig.json"
+  "extends": "@quiteer/ts-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["./packages/**/*.ts"]
 }

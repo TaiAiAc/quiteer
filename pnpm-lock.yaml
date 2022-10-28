@@ -14,7 +14,7 @@ importers:
       eslint: registry.npmmirror.com/eslint/8.26.0
       typescript: registry.npmmirror.com/typescript/4.8.4
 
-  packages/commons:
+  packages/common:
     specifiers: {}
 
   packages/eslint-config:
