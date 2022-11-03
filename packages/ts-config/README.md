@@ -1,4 +1,4 @@
-# `@vue/tsconfig`
+# `@quiteer/ts-config`
 
 TSConfigs for Vue projects to extend.
 
@@ -7,7 +7,7 @@ Requires TypeScript >= 4.5.
 Install:
 
 ```sh
-npm add -D @vue/tsconfig
+npm add -D @quiteer/ts-config
 ```
 
 Add one of the available configurations to your `tsconfig.json`:
@@ -15,17 +15,17 @@ Add one of the available configurations to your `tsconfig.json`:
 The base configuration (runtime-agnostic):
 
 ```json
-"extends" : "@vue/tsconfig/tsconfig.json"
+"extends" : "@quiteer/ts-config/tsconfig.json"
 ```
 
 Configuration for Browser environment:
 
 ```json
-"extends": "@vue/tsconfig/tsconfig.web.json"
+"extends": "@quiteer/ts-config/tsconfig.web.json"
 ```
 
 Configuration for Node environment:
 
 ```json
-"extends": "@vue/tsconfig/tsconfig.node.json"
+"extends": "@quiteer/ts-config/tsconfig.node.json"
 ```

@@ -6,7 +6,6 @@
     "strictPropertyInitialization": false,
     "isolatedModules": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "sourceMap": true,
     "esModuleInterop": true,
     "declaration": false,
