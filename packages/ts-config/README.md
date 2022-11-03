@@ -15,7 +15,7 @@ Add one of the available configurations to your `tsconfig.json`:
 The base configuration (runtime-agnostic):
 
 ```json
-"extends": "@vue/tsconfig/tsconfig.json"
+"extends" : "@vue/tsconfig/tsconfig.json"
 ```
 
 Configuration for Browser environment:

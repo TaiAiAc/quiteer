@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "lib": [
-      "ES2016",
+      "ESNext",
       "DOM",
       "DOM.Iterable"
       // No `ScriptHost` because Vue 3 dropped support for IE
