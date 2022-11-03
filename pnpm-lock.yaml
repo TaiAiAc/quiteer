@@ -24,10 +24,7 @@ importers:
       eslint: 8.26.0
 
   packages/ts-config:
-    specifiers:
-      typescript: ^4.8.4
-    devDependencies:
-      typescript: 4.8.4
+    specifiers: {}
 
 packages:
 
@@ -1940,7 +1937,7 @@ packages:
     dev: false
 
   /typescript/4.8.4:
-    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==, registry: http://registry.npm.taobao.org/}
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==, registry: http://registry.npm.taobao.org/, tarball: http://registry.npm.taobao.org/typescript/-/typescript-4.8.4.tgz}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true

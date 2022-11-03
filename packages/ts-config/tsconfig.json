@@ -1,22 +1,22 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "useDefineForClassFields": true,
-    "noImplicitThis": true,
     "strict": true,
+    // 元素隐式具有 "any" 类型，因为类型为 "string" 的表达式不能用于索引类型 "xx"
+    "suppressImplicitAnyIndexErrors": true,
+    "strictPropertyInitialization": false,
     "isolatedModules": true,
-    // For `<script setup>`
-    // See <https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#preserve-value-imports>
-    "preserveValueImports": true,
-    // Enforce using `import type` instead of `import` for types
-    "importsNotUsedAsValues": "error",
-    "target": "ESNext",
-    // Recommended
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "sourceMap": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    // See <https://github.com/vuejs/vue-cli/pull/5688>
-    "skipLibCheck": true
-  }
+    "declaration": false,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules"]
 }
