@@ -4,17 +4,8 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
-
-    // Required in Vue projects
-    "jsx": "preserve",
-
-    // `"noImplicitThis": true` is part of `strict`
-    // Added again here in case some users decide to disable `strict`.
-    // This enables stricter inference for data properties on `this`.
     "noImplicitThis": true,
     "strict": true,
-
-    // Required in Vite
     "isolatedModules": true,
     // For `<script setup>`
     // See <https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#preserve-value-imports>
