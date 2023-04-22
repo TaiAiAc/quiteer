@@ -13,9 +13,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@quiteer/eslint-config": "workspace:*",
-    "@quiteer/ts-config": "workspace:*",
-    "eslint": "^8.26.0",
-    "typescript": "^4.8.4"
+    "@quiteer/eslint-config": "workspace:0.0.4",
+    "@quiteer/ts-config": "workspace:0.0.5",
+    "eslint": "^8.39.0",
+    "typescript": "^5.0.4"
   }
 }
